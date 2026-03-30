@@ -1,0 +1,9 @@
+C:\Users\나\Desktop\un\My project (4)\Assets\Plugins\Debug\netstandard2.1\RPGCommon.deps.json
+C:\Users\나\Desktop\un\My project (4)\Assets\Plugins\Debug\netstandard2.1\RPGCommon.dll
+C:\Users\나\Desktop\un\My project (4)\Assets\Plugins\Debug\netstandard2.1\RPGCommon.pdb
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\RPGCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\RPGCommon.AssemblyInfoInputs.cache
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\RPGCommon.AssemblyInfo.cs
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\RPGCommon.csproj.CoreCompileInputs.cache
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\RPGCommon.dll
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\RPGCommon.pdb

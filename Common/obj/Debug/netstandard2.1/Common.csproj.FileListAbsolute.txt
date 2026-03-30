@@ -1,0 +1,9 @@
+C:\Users\나\Desktop\un\My project (4)\Assets\Plugins\Debug\netstandard2.1\Common.deps.json
+C:\Users\나\Desktop\un\My project (4)\Assets\Plugins\Debug\netstandard2.1\Common.dll
+C:\Users\나\Desktop\un\My project (4)\Assets\Plugins\Debug\netstandard2.1\Common.pdb
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\Common.AssemblyInfoInputs.cache
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\Common.AssemblyInfo.cs
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\Common.csproj.CoreCompileInputs.cache
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\Common.dll
+C:\Users\나\Desktop\C#\Common\obj\Debug\netstandard2.1\Common.pdb
