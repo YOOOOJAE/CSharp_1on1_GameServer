@@ -24,18 +24,18 @@ Databse : MySQL
 # 3. 매칭 및 조작
 
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/4f1dce2a-a517-464f-ab67-387ea7ffb59d" width="45%" title="5"> 
   <img src="https://github.com/user-attachments/assets/9fca235e-bf5e-4ca6-b2ae-40a5bda433dd" width="45%" title="6">
 </p>
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/ab8c9e76-fbee-4904-942d-27975af50e6f" width="45%" title="5"> 
   <img src="https://github.com/user-attachments/assets/2b589e61-3ea8-4833-8e6f-5ff34d22365f" width="45%" title="6">
 </p>
 
 # 4. 게임 종료 후 승리 카운트 증가
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/3dd224bc-df49-4a3c-b420-bcbb4135ce7f" width="45%" title="5"> 
   <img src="https://github.com/user-attachments/assets/b6822b2c-596b-49c8-a49d-30e67e4357cd" width="45%" title="6">
 </p>
