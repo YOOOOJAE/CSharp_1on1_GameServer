@@ -7,7 +7,44 @@
 
 ---
 
-### Core
+사용언어 : C#
+Databse : MySQL
+클라이언트 : Unity
+
+---
+# 구동 스크린샷
+# 1. 접속
+<img width="640" height="480" alt="1접속" src="https://github.com/user-attachments/assets/ed59b206-0c07-4ad3-afdf-27155e383933" />
+
+# 2. 회원가입 및 로그인
+<img width="640" height="480" alt="2회원가입" src="https://github.com/user-attachments/assets/f1b6d391-1127-4a41-b1a8-a4e1f013d05e" />
+<img width="640" height="240" alt="3 DB에 등록" src="https://github.com/user-attachments/assets/3c6008e2-6d7e-4075-9028-b28a9e049bfb" />
+<img width="640" height="480" alt="4 로그인" src="https://github.com/user-attachments/assets/354d1eb4-9e50-4024-9d1d-e87ea0a312cd" />
+
+# 3. 매칭 및 조작
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4f1dce2a-a517-464f-ab67-387ea7ffb59d" width="45%" title="5"> 
+  <img src="https://github.com/user-attachments/assets/9fca235e-bf5e-4ca6-b2ae-40a5bda433dd" width="45%" title="6">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ab8c9e76-fbee-4904-942d-27975af50e6f" width="45%" title="5"> 
+  <img src="https://github.com/user-attachments/assets/2b589e61-3ea8-4833-8e6f-5ff34d22365f" width="45%" title="6">
+</p>
+
+# 4. 게임 종료 후 승리 카운트 증가
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3dd224bc-df49-4a3c-b420-bcbb4135ce7f" width="45%" title="5"> 
+  <img src="https://github.com/user-attachments/assets/b6822b2c-596b-49c8-a49d-30e67e4357cd" width="45%" title="6">
+</p>
+
+# 5. 게임 채팅
+<img width="1509" height="786" alt="10  채팅" src="https://github.com/user-attachments/assets/a0a95656-ce39-4b8e-8cba-6cd19420fc29" />
+
+---
+# Core
 
 ## RecvBuffer
 수신 버퍼 기능을 담당하는 클래스입니다. 커서를 통해 버퍼 내 유효 데이터 범위를 제어합니다.
@@ -20,7 +57,7 @@ RecvBuffer 활용해 수신 데이터를 관리하며 조립이 완료되면 OnP
 패킷의 타입을 정의하고 각패킷의 직렬화와 역직렬화를 정의한 파일입니다. 인터페이스를 사용해
 모든 패킷이 동일한 규격으로 동작하도록 제작하였습니다.
 
-### Server
+# Server
 
 ## Program
 서버가 실질적으로 실행하는 코드로, TCP리스너 관리, 세션 할당, DB연동 등 핵심적인 부분이 담겨있습니다.
@@ -42,3 +79,16 @@ async/await을 사용했습니다.
 
 ## GamePlayer
 플레이어들의 인게임 객체로 캐릭터 고유의 상태 값을 관리합니다.
+
+# Client 주요 모듈
+
+## NetworkManager
+서버 연결 유지 및 씬 전환 간 세션을 관리하는 싱글톤 매니저입니다.
+
+## ServerSession
+서버에서 전송받은 패킷ID에 따라 적절한 핸들러를 호출하는 컨트롤러 역할입니다.
+
+## GameManager
+서버 패킷을 기반으로 인게임의 상태와 실시간 동기화를 도와주는 클래스입니다.
+
+## 
