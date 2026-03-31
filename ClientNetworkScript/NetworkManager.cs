@@ -68,7 +68,7 @@ public class NetworkManager : MonoBehaviour
         }
         catch (Exception e)
         {
-            Debug.LogError($"¼ö½Å ¿¡·¯: {e.Message}");
+            Debug.LogError($"ìˆ˜ì‹  ì—ëŸ¬: {e.Message}");
         }
     }
 
@@ -135,7 +135,7 @@ public class NetworkManager : MonoBehaviour
         {
             string content = msg.Substring(8);
             myId = int.Parse(content);
-            Debug.Log($"IDÇÒ´ç{myId}");
+            Debug.Log($"IDí• ë‹¹{myId}");
         }
         else if (msg.StartsWith("POS:"))
         {
@@ -175,7 +175,7 @@ public class NetworkManager : MonoBehaviour
             }
             catch(Exception e)
             {
-                Debug.LogError($"ÆĞÅ¶ ÇØ¼® ¿¡·¯: {msg} / {e.Message}");
+                Debug.LogError($"íŒ¨í‚· í•´ì„ ì—ëŸ¬: {msg} / {e.Message}");
             }
 
 
@@ -192,7 +192,7 @@ public class NetworkManager : MonoBehaviour
         }
         catch(Exception e)
         {
-            Debug.Log($"Àü¼Û¿¡·¯ {e.Message}");
+            Debug.Log($"ì „ì†¡ì—ëŸ¬ {e.Message}");
         }
     }
 
@@ -229,14 +229,14 @@ public class NetworkManager : MonoBehaviour
             client = new TcpClient();
             client.Connect(SERVER_IP, PORT);
 
-            Debug.Log($"[Client] ¼­¹ö{SERVER_IP} : {PORT}¿¡ Á¢¼Ó");
+            Debug.Log($"[Client] ì„œë²„{SERVER_IP} : {PORT}ì— ì ‘ì†");
 
             stream = client.GetStream();
 
         }
         catch (Exception e)
         {
-            Debug.LogError($"[Client] Á¢¼Ó ½ÇÆĞ : {e.Message}");
+            Debug.LogError($"[Client] ì ‘ì† ì‹¤íŒ¨ : {e.Message}");
         }
     }
 
